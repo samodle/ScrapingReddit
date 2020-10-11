@@ -16,7 +16,7 @@ if __name__ == '__main__':
     count = 0
     sarcastic_count = 0
     sarcastic_list = []
-    for subreddit_name in r.SubReddits:
+    for subreddit_name in r.SubReddits[:r.NumberOfSubs]:
         print('----------------------')
         print(subreddit_name + ": " + str(count) + "/" + str(len(r.SubReddits)))
         print('----------------------')
