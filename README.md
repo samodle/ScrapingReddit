@@ -2,7 +2,7 @@
 
 This repository contains two scripts.  The first leverages PRAW to scrape reddit.  The second parses the 59GB Reddit scrape from Princeton.
 
-##PRAW
+## PRAW
 
 Using PRAW to Crawl Reddit w/ Python.  Requires config file formatted like this:
 ````
@@ -16,11 +16,11 @@ SubReddits = ['funny', 'askreddit', 'worldnews', 'today', 'news', 'todayilearned
 NumberOfSubs = 4
 ````
 
-##Princeton Data
+## Princeton Data
 
 Takes the 59GB csv files, reades through it iteratively and exports the relevant portions as a csv.
 
-##Sources
+## Sources
 ##### Credit to these two tutorials (main.py):
 
 > https://towardsdatascience.com/scraping-reddit-data-1c0af3040768
